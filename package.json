@@ -1,0 +1,29 @@
+{
+  "name": "crit-css-extractor-backend",
+  "version": "1.0.0",
+  "description": "Backend API for critical CSS extraction using Playwright",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "playwright": "^1.44.0",
+    "css-tree": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "critical-css",
+    "performance",
+    "playwright",
+    "css-extraction"
+  ],
+  "license": "MIT"
+}
